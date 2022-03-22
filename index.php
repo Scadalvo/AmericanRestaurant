@@ -15,8 +15,6 @@
   <link rel="stylesheet" href="css/main.css?v=1.0">
  
 
- 
-
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -33,6 +31,7 @@
       <div class="hero-text">
           <h1>The American Restaurant</h1>
           <p>Official Site</p>
+          <button onclick="makeReservation()">Make a Reservation</button>
 
         
       </div>
@@ -66,10 +65,25 @@
       
       <div class="row">
         <div class="col">
-          Left text
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        At erat pellentesque adipiscing commodo elit at imperdiet. Nec nam aliquam sem et tortor consequat id porta nibh. 
+        Tellus cras adipiscing enim eu turpis. Ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. 
+        Aliquam malesuada bibendum arcu vitae elementum. Facilisis leo vel fringilla est ullamcorper eget nulla. 
+        Id donec ultrices tincidunt arcu non sodales neque. Sem viverra aliquet eget sit amet tellus cras. 
+        Diam maecenas sed enim ut sem viverra. At lectus urna duis convallis convallis tellus id.
+</br>
+        Arcu non sodales neque sodales ut etiam. Facilisi nullam vehicula ipsum a. Cursus in hac habitasse platea dictumst quisque 
+        sagittis purus. At auctor urna nunc id cursus metus aliquam eleifend. Ac turpis egestas sed tempus urna. Vitae purus faucibus 
+        ornare suspendisse sed nisi. Suspendisse faucibus interdum posuere lorem ipsum dolor sit. Eget magna fermentum iaculis eu.
+        Ut lectus arcu bibendum at. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis. 
+        Ante in nibh mauris cursus mattis molestie.
         </div>
         <div class="col">
-          Right text
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Orci nulla pellentesque dignissim enim sit amet venenatis
+        urna cursus. Metus aliquam eleifend mi in nulla. Diam ut venenatis tellus in metus vulputate eu. Diam in arcu cursus euismod
+          quis viverra. Sit amet mauris commodo quis imperdiet massa tincidunt nunc. Eu nisl nunc mi ipsum faucibus vitae aliquet nec. 
+          Turpis massa sed elementum tempus egestas sed sed risus pretium. Turpis nunc eget lorem dolor sed viverra ipsum nunc.
         </div>
       </div>
 
