@@ -48,10 +48,24 @@
     	<form name="NewsletterForm" action="process_newsletter.php" method="POST">
             <div class="form-group">
             <label for= "Name">First Name</label>
-            <input type="text" class="form-control" name="fname" placeholder="Enter your name"></input>
+            <input type="text" class="form-control" name="fname" placeholder="Enter your first name"></input>
 
         </div>
+			<div class="form-group">
+            <label for= "Last">Last Name</label>
+            <input type="text" class="form-control" name="lname" placeholder="Enter your last name"></input>
 
+        </div>
+		<div class="form-group">
+            <label for= "Email">Email Address</label>
+            <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="form-control" name="email" placeholder="Enter your email" aria-describeby="emailHelp"></input>
+
+        </div>
+		<div class="form-group">
+        	<input type="hidden" name="session_id" value="<?php echo $_COOKIE['PHPSESSID']; ?>">
+        	<button type="reset" value="Clear Form" class="btn btn-primary">Clear Form</button>
+        	<button type="submit" value="Submit" name="Submit" class="btn btn-primary">Submit</button>
+      	</div>
         </form>
 
   	<?php    
