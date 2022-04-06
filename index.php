@@ -41,7 +41,7 @@
 
       <div class="row">
         <div class="col-sm">
-          <a href="#menu"><img src="assets/images/food.jpg" width="100%" /></a>
+          <a href="#menu"><img src="assets/images/FriedMacNCheeseBalls.jpg" width="100%" /></a>
         </div>
         <div class="col-sm">
             <h2>Experience the best American Food<br>Sparkhill, NY</h2>
@@ -57,7 +57,7 @@
 </p>
         </div>
         <div class="col-sm">
-           <a href="#menu"><img src="assets/images/drinks.jpg" width="100%" /></a>
+           <a href="#menu"><img src="assets/images/MacNCheeseBurger.jpg" width="100%" /></a>
         </div>
       </div>
 

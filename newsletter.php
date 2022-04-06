@@ -30,9 +30,23 @@
 	<div class="container">
   	<?php
     	if (isset($_GET['msg']) && $_GET['msg'] == 'thankyou') {
-      	if (isset($_GET['last_id']) && !empty($_GET['last_id'])) {
+      	if (isset($_GET['last_entry']) && !empty($_GET['last_entry'])) {
 
-        	include 'include/dbconnect.php';
+        	include 'includes/dbconnect.php';
+			$entry_id = $_GET['last_entry'];
+			$query = "SELECT *
+			          FROM entries 
+					  WHERE id = '$entry_id'";
+			$result = mysqli_query ($conn, $query);
+			while ($row = mysqli_fetch_assoc($result)) {
+				$fname = $row['fname'];
+				$email = $row['email'];
+
+			}
+
+			echo "<p>Thank you for your subscription, $fname!</p>";
+			echo "<p>You will be recieving emails to: $email</p>";
+			echo "<p><a href='newsletter.php'>Enter another subscription!</a></p>";
 
 
       	}
@@ -45,7 +59,7 @@
     	<p>Welcome to our Newsletter. Please enter your information and you will automatically be entered
     	to receive the latest news from our restaurant.</p>
 
-    	<form name="NewsletterForm" action="process_newsletter.php" method="POST">
+    	<form name="NewsletterForm" action="process_search.php" method="POST">
             <div class="form-group">
             <label for= "Name">First Name</label>
             <input type="text" class="form-control" name="fname" placeholder="Enter your first name"></input>

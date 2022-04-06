@@ -22,7 +22,7 @@ nav {
 }
 
 .hero-image{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/images/hero.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/images/BreadedMacNCheese.jpg");
     height: 55%;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,13 +56,24 @@ nav {
     color: white;
 }
 
+.container {
+    margin-top: 10%;
+
+}
+
+.form-group {
+    padding: 5px;
+}
+
 /* Footer */
+
 footer {
     width: 100%;
     text-align: center;
     padding: 20px; /* pixels */
     color: white;
     height: 100%;
+    max-height: 20%;
 
 
 }

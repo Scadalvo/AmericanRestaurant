@@ -18,7 +18,7 @@
 	<!-- Main CSS -->
 	<link href="css/main.css" rel="stylesheet">
 
-	<title>The American Restaurant | Newsletter</title>
+	<title>The American Restaurant | Contact Us</title>
   </head>
   <body onload="greeting()">
 	<div class="header">
@@ -42,8 +42,7 @@
 
     	<h1>The American Restaurant Newsletter</h1>
     	<p id="demo_greeting"></p>
-    	<p>Welcome to our Newsletter. Please enter your information and you will automatically be entered
-    	to receive the latest news from our restaurant.</p>
+    	<p>Here you can contact us. Please enter your information and what you'd like to let us know.</p>
 
     	
 

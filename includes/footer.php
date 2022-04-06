@@ -1,11 +1,11 @@
 <?php
-    // creating get_current_year
+    // creating get_current_year 
     function get_current_year(){
         echo date("Y");
     }
 ?>
 
-<footer class = "navbar-dark bg-dark">
+<footer class = "navbar-dark bg-dark fixed-bottom">
 
 <p>Created by Chris Valvo </p>
 <p>CS 485 | Copyright &copy; <?php get_current_year(); ?> </p>
